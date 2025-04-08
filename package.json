@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "files": [
+    "dist/"
+  ],
   "engines": {
     "pnpm": ">=8.6.7 <9"
   },
   "scripts": {
-    "dev": "nodemon --exec 'ts-node' $@"
+    "dev": "nodemon --exec 'ts-node' $@",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "mshlz",
