@@ -1,0 +1,17 @@
+{
+    "configurations": [
+      {
+        "type": "node-terminal",
+        "name": "dev",
+        "request": "launch",
+        "command": "yarn dev ${file}",
+        "cwd": "${workspaceFolder}",
+        "env": {
+        },
+        "resolveSourceMapLocations": [
+          "!**/node_modules/**",
+          "!node:internal/**"
+        ]
+      }
+    ]
+}
